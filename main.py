@@ -103,7 +103,7 @@ if search_clicked and year:
         if telugu_year:
             st.success(f"Telugu Year for {year} is: {telugu_year}")
         else:
-            st.error("Year should be between 1801 and 2100 in the Telugu calendar mapping.")
+            st.error("Year should be between 1867 and 2106 in the Telugu calendar mapping.")
     except ValueError:
         st.error("Please enter a valid year (numbers only).")
 
